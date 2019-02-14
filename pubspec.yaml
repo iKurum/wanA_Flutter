@@ -1,7 +1,7 @@
 name: zafkiel
-description: A new Flutter project.
+description: wanAndroid Flutter project.
 
-version: 1.0.0+1
+version: 0.0.1+1
 
 environment:
   sdk: '>=2.0.0-dev.68.0 <3.0.0'
@@ -19,6 +19,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon/icon.png"
 
 flutter:
   uses-material-design: true

@@ -15,8 +15,10 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="zafkiel"
-        android:icon="@mipmap/zafkiel">
+        android:icon="@mipmap/launcher_icon"
+        android:logo="@mipmap/launcher_icon">
         <activity
+            android:label="zafkiel"
             android:name=".MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
